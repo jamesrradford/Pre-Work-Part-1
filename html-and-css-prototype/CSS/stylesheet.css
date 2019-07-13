@@ -1,27 +1,29 @@
 /* Global resets */
+
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
-	color: #424242;
-	line-height: 1.4;
+  font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+  color: #424242;
+  line-height: 1.4;
 }
 
 /* Fonts */
+
 h1 {
-	font-family: "rooney-web", "AmericanTypewriter", Rockwell, serif;
-	font-size: 2.5em;
-	font-weight: bold;
+  font-family: "rooney-web", "AmericanTypewriter", Rockwell, serif;
+  font-size: 2.5em;
+  font-weight: bold;
 }
 
 .container {
-	margin: 2em auto;
-	max-width: 630px;
-	text-align: center;
+  margin: 2em auto;
+  max-width: 630px;
+  text-align: center;
 }
 
 /* The following font information and color codes are provided for you.  They do not match the prototype exactly, but they are fine to use for the assignment and doing so does not count against you.  They are simply meant to help you save time.  We would like everyone to have as close to a pixel-perfect match to the prototype as possible.  If you do find a font/color that matches more precisely, please share it with the team so we can improve the activity for future applicants.  Thank you!  Happy coding!
@@ -41,10 +43,143 @@ h1 {
 
 /* Your CSS code goes here */
 
+a {
+  color: #20A1D4;
+  text-decoration: none;
+}
+
 p {
-	font-family: "rooney-web", "AmericanTypewriter", Rockwell, serif;
+  text-align: left;
+  margin: .9em;
+  color: #777;
+  font-size: .8em;
 }
 
 .textOrange {
-	color: #EF5F3C;
+  color: #EF5F3C;
+}
+
+.containerTop {
+  width: 255px;
+  height: 45px;
+  margin: 50px 10px 0px 200px;
+  background-color: #444;
+  text-align: center;
+  padding: 6px;
+  border: solid;
+  border-radius: 2px;
+}
+
+.moneyNeeded {
+  color: #FFF;
+  font-size: .9em;
+}
+
+.progressBorder {
+  border: solid;
+  border-width: thin;
+  color: #eaeaea;
+}
+
+.progressOrange {
+  background-color: #EF5F3C;
+}
+
+/* .containerMain {
+  margin: 12px 10px 5px 200px;
+  width: 305px;
+  text-align: center;
+  border-color: #eaeaea;
+  border-width: thin;
+  display: inline-block;
+} */
+
+.containerMid {
+  margin: 1px 10px 5px 200px;
+  width: 305px;
+  width: 255px;
+  text-align: center;
+  border: solid;
+  border-color: #eaeaea;
+  border-width: thin;
+}
+
+.containerText {
+  margin: 10px 20px 5px 10px;
+}
+
+.giveButton {
+  background-color: #1CBC2C;
+  border: solid;
+  border-color: #1CBC2C;
+  border-radius: 2px;
+  font-size: 0.9em;
+  width: 100px;
+  height: 40px;
+  margin: 10px;
+  color: #FFF;
+}
+
+.moneyInput {
+  padding-left: 4px;
+  width: 100px;
+  height: 40px;
+  border: solid;
+  border-width: thin;
+  border-radius: 2px;
+  font-size: 0.9em;
+  color: #000;
+  float: left;
+  margin: 10px 0px 1px 20px;
+}
+
+.containerInput {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.whyGive {
+  margin: 1px 1px 25px 20px;
+}
+
+.save {
+  background-color: #fafafa;
+  color: #858585;
+  border: 2px solid #eaeaea;
+  border-width: thin;
+  padding: 10px;
+  border-radius: 3px;
+  margin: 5px 1px 10px 194px;
+  width: 122px;
+  font-size: 11px;
+}
+
+.tellFriends {
+  background-color: #fafafa;
+  color: #858585;
+  border: 2px solid #eaeaea;
+  border-width: thin;
+  padding: 10px;
+  border-radius: 3px;
+  margin: 5px 220px 10px 0px;
+  width: 122px;
+  font-size: 11px;
+}
+
+.containerBottom {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.pointer {
+  width: 0;
+  height: 0;
+  margin-left: 415px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 6px solid #464646;
 }
